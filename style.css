@@ -1,0 +1,247 @@
+body{
+    background-color: black !important;
+    color: white  !important;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient(to bottom, rgb(0 0 0 / 1%), rgb(0 0 0 / 100%)  ), url("https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover; */
+    /* background-image: url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+}
+input::placeholder{
+    color: white !important;
+}
+
+/* Styling for Landing page */
+#mainHeading{
+    margin-top: 15rem;
+    text-align: center !important;
+    font-size: 6rem !important;
+    font-weight: bold;
+    justify-content: center !important;
+}
+.btn-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-holder a{
+    margin: 1rem;
+    font-weight: 475;
+}
+
+input{
+    background-color: black !important;
+    color: white !important;
+}
+
+/* Styling for register and login pages */
+#register{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.reg-btn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#goBack{
+    color: white;
+    text-decoration: none;
+}
+#goBack:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.nav-link-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-container {
+    margin-top: 2rem !important;
+}
+#goBackReg{
+    margin-left: 16rem;
+    color: white;
+    text-decoration: none;
+}
+#goBackReg:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* Styling for the listings page */
+nav{
+    background-color: rgb(20, 20, 20) !important;
+}
+.navbar-brand{
+    color:white !important;
+}
+.navbar-myOrders{
+    color: white;
+    text-decoration: none;
+}
+.navbar-myOrders:hover{
+    color: white;
+    text-decoration: underline;
+}
+.nav-searchbar{
+    background-color: rgb(20, 20, 20) !important;
+    color: white;
+}
+.card{
+    width: 17rem !important;
+    height: 30rem !important;
+    margin: 2rem;
+    background-color: rgb(40, 40, 40) !important;
+    color: white !important;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.card:hover{
+    scale: 1.01;
+    box-shadow: 12px 12px 0px 1px rgba(255, 255, 255, 1);
+}
+.card:active {
+    transform: scale(0.99); /* Scale the card slightly down when clicked */
+    background-color: rgb(50, 50, 50) !important;
+}
+
+#books-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+
+}
+
+.card img{
+    width: 100%;
+    height: 70%;
+
+}
+
+.card-title{
+    font-size: 300 !important;
+    /* font-weight: bolder; */
+}
+#price{
+    margin-bottom: 0;
+}
+
+/* Styling for preview page */
+#preview-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#preview-container img{
+    width: 17rem;
+    height: 30rem;
+    margin: 7rem;
+    border-radius: 1rem;
+}
+
+.preview-info{
+    background-color: black;
+    color:white;
+    border: 0.1rem solid white;
+    padding:2rem;
+    border-radius: 1rem;
+    margin-right: 15rem;
+    width:80%;
+    box-shadow: 12px 12px 0px 1px rgb(255, 255, 255);
+}
+
+.preview-info .preview-title{
+    font-size: 800 !important;
+}
+
+.preview-right a{
+    margin: 2rem 12rem 0rem 18rem;
+}
+#review-link{
+    margin: 2rem 12rem 0rem 23rem;
+    color: white;
+    text-decoration: none;
+}
+#review-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+.preview-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.preview-right .btn-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-container{
+    margin-right: 12rem;
+    margin-top: 2rem;
+}
+
+/* Styling for Admin Dashboard */
+.admn-heading{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15rem;
+}
+
+.admn-btn-container{
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+.admn-btn-container a{
+    margin: 1rem;
+}
+
+/*Styling for the Editing pages */
+#choose-to-edit{
+    text-align: center;
+    margin: 2rem;
+}
+
+.btn-outline-danger{
+    margin-left: 1rem;
+}
+.btn-outline-danger:hover{
+    color: black !important;
+}
+
+/* Styling for Admin Orders */
+table{
+    margin: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    width:95% !important
+}
+.table-dark th{
+    background-color: black !important;
+}
+.admn-orders-text{
+    font-size: 900 !important;
+    padding:2rem;
+}
+.table-side-headings{
+    margin-left:2rem;
+}
+.nav-link-light{
+    color: white;
+    text-decoration: none;
+}
